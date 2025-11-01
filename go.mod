@@ -6,7 +6,7 @@ require (
 	github.com/hashicorp/go-retryablehttp v0.7.8
 	github.com/pkg/errors v0.8.1
 	github.com/sirupsen/logrus v1.4.2
-	github.com/stretchr/testify v1.7.2
+	github.com/stretchr/testify v1.11.1
 	golang.org/x/net v0.38.0
 )
 
