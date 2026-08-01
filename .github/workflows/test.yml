@@ -15,7 +15,7 @@ jobs:
       - name: Checkout the code
         uses: actions/checkout@v2
       - name: Set up golang with version ${{ matrix.go }}
-        uses: actions/setup-go@v2
+        uses: actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e # v7
         with:
           go-version: ${{ matrix.go }}
       - name: Run tests
