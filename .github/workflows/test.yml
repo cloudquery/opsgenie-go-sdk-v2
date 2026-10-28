@@ -22,6 +22,6 @@ jobs:
         run: go test -v -coverprofile=covprofile ./...
       - name: Send coverage
         if: ${{ matrix.os == 'macos-latest' && matrix.go == '1.16'}}
-        uses: shogo82148/actions-goveralls@v1.4.2
+        uses: shogo82148/actions-goveralls@4b30166c2ac96ac557328a27874a16b777f9b8bd # v1.11.4
         with:
           path-to-profile: covprofile
